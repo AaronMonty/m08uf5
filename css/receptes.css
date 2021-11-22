@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral');
+
+
+* {
+
+    font-family: 'Spectral';
+
+}
+
+table, th, td {
+    border: 2px solid black;
+    
+}
+
+.abuela {
+    text-align: center;
+    font-size: 64px;
+    size: 64px;
+    background-color: aliceblue;
+    color: red;
+
+}
+
+.patatas {
+    text-align: center;
+    font-size: 64px;
+    color: red;
+    background-color: deepskyblue;
+
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 64px;
+    color: red;
+    background-color: aliceblue;
+
+}
+
+.quiche {
+    text-align: center;
+    font-size: 64px;
+    color: red;
+    background-color: deepskyblue;
+
+
+}
+
+body {
+    
+    background-color: cornflowerblue;
+
+}
+
+
+.taco{
+
+    background-color: deepskyblue;
+
+
+
+}
+
+
+
