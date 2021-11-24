@@ -1,45 +1,28 @@
 table {
-
-    border: 1px solid black;
-    border-collapse: collapse;
-
-
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .almuerzo {
-
-    text-align: center;
-
-
+  text-align: center;
 }
 
 .m08 {
-
-    background-color: aqua;
-
+  background-color: aqua;
 }
 
 .m06 {
-
-    background-color: green;
-
-
+  background-color: green;
 }
 
 .m04 {
-
-    background-color: hotpink;
-
+  background-color: hotpink;
 }
 
 .m07 {
-
-    background-color: khaki;
-
+  background-color: khaki;
 }
 
 .m10 {
-
-    background-color: mediumpurple;
-
+  background-color: mediumpurple;
 }
