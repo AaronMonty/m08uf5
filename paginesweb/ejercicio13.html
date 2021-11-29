@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,97 @@
     <title>Formulari</title>
     <link rel="stylesheet" href="../css/formulario.css">
 </head>
+
 <body>
 
     <h1 class="curri">Curriculum</h1>
 
     <table>
 
-     <td>
+       
 
-        <h4><u> Informacion Basica</u></h4>
+        <tr>
+            <td>
 
-        <label for="fname">Nombre</label>
-        <br>
-        <input type="text">
-        <br>
-        <label for="text">Altura en centimetros</label>
-        <br>
-        <input type="number">
-        <br>
-        <label for="email">Email</label>
-        <br>
-        <input type="email">
-        <br>
-        <label for="fecha">Fecha Nacimiento</label>
-        <br>
-        <input type="date">
-        <br>
-        <label for="estudios">Estudios</label>
-        <br>
-        <input type="">
+                <h4><u> Informacion Basica</u></h4>
+
+                <label for="fname">Nombre</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="text">Altura en centimetros</label>
+                <br>
+                <input type="number">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email">
+                <br>
+                <label for="fecha">Fecha Nacimiento</label>
+                <br>
+                <input type="date">
+                <br>
 
 
-         
+            </td>
+        </tr>
         
+        <tr>
+
+
+
+
+            <td class="nacio">
+
+                <h4><u>Nacionalidad</u></h4>
+                <input type="radio">
+                <label for="name">Española</label>
+                <input type="radio">
+                <label for="name">Comunitario(UE)</label>
+                <input type="radio">
+                <label for="text">No comunitario</label>
+
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td class="estudios">
+
+                <h4><u>Estudios</u></h4>
+
+                <select name="Grados">
+                    <option value="1">SMX</option>
+                    <option value="2">ASIX</option>
+                    <option value="3">DAW</option>
+                    <option value="10">DAW-BIO</option>
+                    <option value="11">DAM</option>
+                </select>
+
+
+
+            </td>
+
+
+        </tr>
+
+
+        <tr>
+
+            <td class="idioma">
+
+                <h4><u>Idiomas</u></h4>
+
+                <input type="checkbox">
+                <label for="text">Catalan</label>
+                <input type="checkbox">
+                <label for="text">Castellano</label>
+                <input type="checkbox">
+                <label for="text">Ingles</label>
+                <input type="checkbox">
+                <label for="text">Chino</label>
 
 
 
@@ -49,13 +108,32 @@
 
 
 
-     </td>   
+
+
+            </td>
+
+
+        </tr>
+
+        <tr>
+
+            <td class="enviar">
+
+                <form action="/action_page.php">
+                    <input type="button" value="Enviar">
+                    <input type="button" value="Cancelar">
+                  </form>
+                
+
+
+            </td>
 
 
 
 
+        </tr>
 
-
+        
 
 
 
@@ -64,4 +142,5 @@
     </table>
 
 </body>
+
 </html>

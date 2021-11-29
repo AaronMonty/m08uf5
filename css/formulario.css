@@ -3,11 +3,44 @@ table, th,td {
     border: 1px solid black;
     border-collapse: collapse;
     width: 50%;
+    background-color: orange;
 }
 
 .curri {
 
     text-align: center;
     color: green;
+
+}
+
+.nacio {
+
+    background-color: rgb(144, 241, 15)
+
+}
+
+.estudios {
+
+    background-color: rosybrown;
+
+}
+
+.idioma {
+
+    background-color: rgb(7, 101, 163);
+
+}
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.enviar {
+
+    background-color: grey;
+
 
 }
