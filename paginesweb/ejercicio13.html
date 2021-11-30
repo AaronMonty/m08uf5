@@ -13,134 +13,120 @@
 
     <h1 class="curri">Curriculum</h1>
 
-    <table>
-
+    <form action="#" method="get">
        
 
-        <tr>
-            <td>
-
-                <h4><u> Informacion Basica</u></h4>
-
-                <label for="fname">Nombre</label>
-                <br>
-                <input type="text">
-                <br>
-                <label for="text">Altura en centimetros</label>
-                <br>
-                <input type="number">
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input type="email">
-                <br>
-                <label for="fecha">Fecha Nacimiento</label>
-                <br>
-                <input type="date">
-                <br>
 
 
-            </td>
-        </tr>
-        
-        <tr>
+           
+                <fieldset class="Info">
 
+                    <h4><u> Informacion Basica</u></h4>
 
+                    <label for="fname">Nombre:</label>
+                    <br>
+                    <input type="text" id="fname" name="username" placeholder="Introduce Tu Nombre">
+                    <br>
+                    <label for="centimetros">Altura en centimetros:</label>
+                    <br>
+                    <input type="number" id="centimetros" name="centimetros" value="CM" placeholder="Introduce tu estarua">
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email"  name="correo" placeholder="Correo Electronico" c>
+                    <br>
+                    <label for="fecha">Fecha Nacimiento:</label>
+                    <br>
+                    <input type="date" id="fecha" name="date" value="fechas">
+                    <br>
+                </fieldset>
 
-
-            <td class="nacio">
-
-                <h4><u>Nacionalidad</u></h4>
-                <input type="radio">
-                <label for="name">Española</label>
-                <input type="radio">
-                <label for="name">Comunitario(UE)</label>
-                <input type="radio">
-                <label for="text">No comunitario</label>
-
-
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td class="estudios">
-
-                <h4><u>Estudios</u></h4>
-
-                <select name="Grados">
-                    <option value="1">SMX</option>
-                    <option value="2">ASIX</option>
-                    <option value="3">DAW</option>
-                    <option value="10">DAW-BIO</option>
-                    <option value="11">DAM</option>
-                </select>
-
-
-
-            </td>
-
-
-        </tr>
-
-
-        <tr>
-
-            <td class="idioma">
-
-                <h4><u>Idiomas</u></h4>
-
-                <input type="checkbox">
-                <label for="text">Catalan</label>
-                <input type="checkbox">
-                <label for="text">Castellano</label>
-                <input type="checkbox">
-                <label for="text">Ingles</label>
-                <input type="checkbox">
-                <label for="text">Chino</label>
-
-
-
-
-
-
-
-
-
-
-
-            </td>
-
-
-        </tr>
-
-        <tr>
-
-            <td class="enviar">
-
-                <form action="/action_page.php">
-                    <input type="button" value="Enviar">
-                    <input type="button" value="Cancelar">
-                  </form>
                 
+          
+
+            
 
 
-            </td>
+
+
+                    <fieldset class="nacio">
+                    <h4><u>Nacionalidad</u></h4>
+                    <input type="radio" name="redonda" id="española" value="ES" checked="checked">
+                    <label for="española">Española</label>
+                    <input type="radio" name="redonda" id="comunitario" value="CO">
+                    <label for="comunitario">Comunitario(UE)</label>
+                    <input type="radio" name="redonda" id="no_comunitario" value="NOCO">
+                    <label for="no_comunitario">No comunitario</label>
+                </fieldset>
+
+               
+
+           
+
+            
+
+                
+                <fieldset class="estudios">
+                    <h4><u>Estudios</u></h4>
+
+                    <select name="Grados">
+                        <option value="SMX">SMX</option>
+                        <option value="ASIX">ASIX</option>
+                        <option value="DAW">DAW</option>
+                        <option value="DAW-BIO">DAW-BIO</option>
+                        <option value="DAW">DAM</option>
+                    </select>
+                </fieldset>
+
+
+               
+
+
+            
+
+
+           
+
+                
+                 <fieldset class="idiomas">
+                    <h4><u>Idiomas</u></h4>
+
+                    <input type="checkbox" name="idiomas" value="language" id="idiomas">
+                    <label for="idiomas">Catalan</label>
+                    <input type="checkbox" name="idiomas" value="language" id="idiomas">
+                    <label for="idiomas">Castellano</label>
+                    <input type="checkbox" name="idiomas" value="language" id="idiomas">
+                    <label for="idiomas">Ingles</label>
+                    <input type="checkbox" name="idiomas" value="language" id="idiomas">
+                    <label for="idiomas">Chino</label>
+                </fieldset>
 
 
 
 
-        </tr>
+                <fieldset class="botones">
+
+                        <input type="submit" value="Enviar" name="enviar">
+                        <input type="button" value="Cancelar">
+                    </fieldset>
+
+
+
+               
+
+
+
+
+            
+
+
+
+
+
+
 
         
-
-
-
-
-
-    </table>
-
+    </form>
 </body>
 
 </html>
