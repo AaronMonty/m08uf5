@@ -1,0 +1,58 @@
+div {
+    
+    width: 600px;
+    height: 600px;
+    margin: 5px;
+
+}
+
+.segundo {
+    border: 1px;
+    background-color: greenyellow;
+    height: 50px;
+    width: 45%;
+    
+
+}
+
+.septimo {
+
+   background-color: greenyellow; 
+   height: 100px;
+   width: 17%;
+   float: ;
+}
+
+.tercero {
+    border: 1px;
+    background-color: black;
+    height: 100px;
+    width: 17%;
+
+}
+
+.cuarto {
+    border: 1px;
+    background-color: green;
+    height: 50px;
+    width: 45%;
+
+
+}
+
+.quinto {
+    border: 1px;
+    background-color: greenyellow;
+    height: 50px;
+    width: 45%;
+
+
+}
+.sexto {
+    border: 1px;
+    background-color: green;
+    height: 50px;
+    width: 22%;
+
+
+}
