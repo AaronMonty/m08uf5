@@ -1,0 +1,103 @@
+.div1 {
+
+    width: 600px;
+    height: 600px;
+    position: absolute
+}
+
+.primero{
+
+    background-color: greenyellow;
+    width: 600px;
+    height: 50px;
+    
+}
+
+.segundo {
+
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    position: absolute;
+    margin-right: 5px;
+}
+
+.tercero {
+
+    background-color: cyan;
+    width: 395px;
+    height: 160px;
+    right: 0px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.cuarto {
+    
+    background-color: greenyellow;
+    width: 200px;
+    height: 50px;
+    position:absolute;
+    margin-top: 60px;
+    
+
+}
+
+.quinto {
+
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 115px;
+}
+
+.sexto {
+
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-top: 170px;
+    color: white;
+}
+
+.septimo {
+
+    background-color: greenyellow;
+    position: absolute;
+    width: 197px;
+    height: 50px;
+    right: 198px;
+    margin-top: 170px;
+}
+
+.octavo {
+
+    background-color: green;
+    position: absolute;
+    width: 197px;
+    height: 45px;
+    right: 198px;
+    margin-top: 225px;
+
+}
+
+.noveno {
+    position: absolute;
+    background-color: greenyellow;
+    width: 193px;
+    height: 150px;
+    right: 0px;
+    margin-top: 170px;
+}
+
+.decimo {
+    position: absolute;
+    background-color: greenyellow;
+    width: 402px;
+    height: 45px;
+    right: 198px;
+    margin-top: 275px;
+}
