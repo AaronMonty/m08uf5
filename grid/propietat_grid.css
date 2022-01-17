@@ -65,7 +65,23 @@ body{
 }
 
 #div7{
-
-    
-
-}
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+  }
+  #vegeta{
+    grid-template-columns: 30%;
+    grid-template-rows: 30%;
+    grid-row-start: 2;
+    }
+ #goku4{
+    grid-template-columns: 70%;
+    grid-template-rows: 70%;
+    grid-row-start: 2;
+ }
+ #div7>p{
+    margin-bottom: 200px;
+    grid-column-start: 1;
+    grid-column-end : 4;
+ }
+ 
