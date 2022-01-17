@@ -1,0 +1,126 @@
+.div1 {
+
+    width: 600px;
+    height: 600px;
+    position: absolute
+}
+
+div>div:hover{
+
+    opacity: 50%;
+    border: solid black 1px;
+
+}
+
+.primero{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://esports.as.com/2021/06/01/firmas/Cuenta-segundos-test-COVID_1469863017_684275_1440x600.jpg");
+    width: 600px;
+    height: 50px;
+    
+}
+
+.segundo {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    position: absolute;
+    margin-right: 5px;
+    background-image: url("https://www.laneta.com/s3-cached/portal-laneta/ely/ete-sech-el-gordito-que-paso-de-un-video-viral-al-estrellato-en-las-redes-wow-01-20201124657165716");
+}
+
+.tercero {
+    background-image: url("https://i.ytimg.com/vi/CnWijz3GKm8/maxresdefault.jpg");
+    width: 395px;
+    height: 160px;
+    right: 0px;
+    position: absolute;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cuarto {
+    
+    background-color: greenyellow;
+    width: 200px;
+    height: 50px;
+    position:absolute;
+    margin-top: 60px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://api.rcgmedia.mx/uploads/small_perro_estudiante_conquista_tiktok_especial_572a0356f7.jpg");
+    
+
+}
+
+.quinto {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://fotos-proco.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/07/05080336/plantillas-de-memes-famosos.jpg");
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 115px;
+}
+
+.sexto {
+    background-image: url(../videos/jagger.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-top: 170px;
+    color: white;
+}
+
+.septimo {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://imagenes.20minutos.es/files/image_656_370/files/fp/uploads/imagenes/2021/10/31/meme.r_d.344-274-9806.jpeg");
+    position: absolute;
+    width: 197px;
+    height: 50px;
+    right: 198px;
+    margin-top: 170px;
+}
+
+.octavo {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://www.tuexperto.com/wp-content/uploads/2020/03/origen-memes-whatsapp-twitter-1200x640.jpg.webp");
+    position: absolute;
+    width: 197px;
+    height: 45px;
+    right: 198px;
+    margin-top: 225px;
+
+}
+
+.noveno {
+    background-image: url("https://i.ytimg.com/vi/MUDpHuW5PAQ/maxresdefault.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: greenyellow;
+    width: 193px;
+    height: 150px;
+    right: 0px;
+    margin-top: 170px;
+}
+
+.decimo {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    background-image: url("https://www.laxmasmusica.com/uploads/newsarticle/65608d3d446746c18acecdb61c4f45c5/jerry_meme.jpg");
+    width: 402px;
+    height: 45px;
+    right: 198px;
+    margin-top: 275px;
+}

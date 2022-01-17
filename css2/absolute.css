@@ -4,7 +4,6 @@
     height: 600px;
     position: absolute
 }
-
 .primero{
 
     background-color: greenyellow;
@@ -95,9 +94,10 @@
 
 .decimo {
     position: absolute;
-    background-color: greenyellow;
+    background-color: green;
     width: 402px;
     height: 45px;
     right: 198px;
     margin-top: 275px;
 }
+

@@ -1,0 +1,71 @@
+body{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    
+}
+
+#primerdiv {
+
+   grid-column-start: 3;
+
+}
+
+#div2{
+
+    grid-column-start:3;
+    grid-column-end:4;
+
+}
+
+#div3 {
+
+    grid-column-end: span 2;
+
+}
+
+#div4 {
+
+    grid-column: 4 / 6;
+
+}
+
+#div5 {
+
+    grid-row: 3;
+    grid-column: 2; 
+
+
+}
+
+#div6>img{
+
+    width: 50%;
+
+}
+
+#div6{
+    
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+#kinton{
+    order: 0;
+    opacity: 40%;
+}
+
+#goku3{
+
+    order: 1;
+
+}
+
+#div7{
+
+    
+
+}
