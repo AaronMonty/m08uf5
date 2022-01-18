@@ -1,22 +1,87 @@
 main {
 
-    border: solid 1px black;
+   
 
 }
 body {
 
     width: 830px;
-    
+    background-color:  #fef2cd    ;
 }
 
 .sirius{
 
     height: 144px;
+    margin-top: -4px;
 
 }
 
-.sigthed{
+.signo {
 
- 
+    margin-top: -4px;
+    width: 100%;
+
+}
+
+.izquierda1{
+
+    float: left;
+    margin-top: -4px;
+
+}
+
+.sighted{
+
+    float: left;
+    margin-top: -4px;
+    height: 176px;
+
+}
+
+.derecha1{
+
+    float: right;
+    margin-top: -4px;
+}
+
+.izquierda2{
+
+    margin-top: -18px;
+    float: left;
+
+}
+
+.izquierda3{
+
+    float: lef;
+    margin-top: -128px;
+    
+}
+
+.pie {
+
+    position: absolute;
+    left: 144px;
+    margin-top: -150px;
+    height: 182px;
+    width: 555px;
+}
+
+.centro{
+    
+    float: left;
+    width: 555px;
+    height: 375px;
+}
+
+.derecha2{
+
+    float: right;
+
+}
+
+.pie2{
+
+    width: 100%;
     
 }
