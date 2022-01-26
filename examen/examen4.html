@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros En Adopcion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="examen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LandPerros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../examen/examen.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="examen2.html">Razas De Perros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="examen3.html">Requisitos para poder adoptarlos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="examen4.html">Formulario para solicitar adopcion</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div class="bg-light p-5 rounded">
+            <h1>Formulario</h1>
+            <p>Aqui tienes el formulario para poder solicitar una adopcion de alguna raza que tenemos</p>
+        </div>
+
+        <h1 class="form">Formulario</h1>
+
+        <form action="#" method="get">
+
+            <fieldset>
+
+                <br>
+
+                <fieldset class="info">
+
+                    <legend>
+                        <h2><u>Informacion Basica</u></h2>
+                    </legend>
+
+                    <label for="fname">Nombre:</label>
+                    <br>
+                    <input type="text" id="fname" name="name" placeholder="Introduce Tu Nombre">
+                    <br>
+                    <label for="flastname">Apellidos</label>
+                    <br>
+                    <input type="text" id="flastname" name="lastname" placeholder="Introduce tus Apellidos">
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="correo" placeholder="Correo Electronico" c>
+                    <br>
+                    <label for="fecha">Fecha Nacimiento:</label>
+                    <br>
+                    <input type="date" id="fecha" name="date" value="fechas">
+                    <br>
+                </fieldset>
+
+
+
+                <br>
+
+
+
+
+
+                <fieldset class="local">
+                    <legend>
+                        <h2><u>Localidad</u></h2>
+                    </legend>
+                    <label for="vivienda">Direccion</label>
+                    <br>
+                    <input type="text" id="vivienda" name="casa" placeholder="Introduce Tu Direccion">
+                </fieldset>
+
+
+
+                <br>
+
+
+
+                <fieldset class="ingresos">
+                    <legend>
+                        <h2><u>Ingresos Estimados</u></h2>
+                    </legend>
+
+                    <select name="Ingresos">
+                        <option value="500-1000">500€-1.000€</option>
+                        <option value="1000-1500">1.000€-1.500€</option>
+                        <option value="1500-2000">1.500€-2.000€</option>
+                        <option value="2000-2500">2.000€-2.500€</option>
+                        <option value="2500-3000">2.500€-3.000€</option>
+                    </select>
+                </fieldset>
+
+
+
+
+                <br>
+
+
+
+
+
+
+                <fieldset class="razas">
+                    <legend>
+                        <h2><u>Razas</u></h2>
+                    </legend>
+
+                    <select name="Razas">
+
+                        <option value="1">Pug</option>
+                        <option value="2">Kangal</option>
+                        <option value="3">Husky Siberiano</option>
+                        <option value="4">Pastor Alemán</option>
+                        <option value="5">Retriever</option>
+                        <option value="6">Pomerania</option>
+                        <option value="7">Bulldog Ingles</option>
+                        <option value="8">Caniche</option>
+                        <option value="9">Pitbull</option>
+                        <option value="10">Chihuahua</option>
+                        <option value="12">Rottweiler</option>
+                        <option value="12">Maltipoo</option>
+
+                    </select>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset class="masrazas">
+
+                    <legend>
+                        <h2><u>Adoptar mas Razas</u></h2>
+                    </legend>
+
+                    <label for="masrazas">Aqui puede poner mas de un perro o tipo de raza</label>
+                    <br>
+                    <input type="text" id="masrazas" name="name">
+                </fieldset>
+
+                <br>
+
+                <fieldset class="botones">
+
+                    <input type="submit" value="Enviar" name="enviar">
+                    <input type="button" value="Cancelar">
+                </fieldset>
+
+            </fieldset>
+        </form>
+
+
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

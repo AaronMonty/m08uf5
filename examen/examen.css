@@ -1,0 +1,28 @@
+.form {
+  text-align: center;
+  color: black;
+}
+
+.info {
+  background-color: yellow;
+}
+
+.local {
+  background-color: chocolate;
+}
+
+.ingresos {
+  background-color: mediumseagreen;
+}
+
+.razas {
+  background-color: orchid;
+}
+
+.botones {
+  background-color: grey;
+}
+
+.masrazas {
+  background-color: rgb(80, 158, 17);
+}
