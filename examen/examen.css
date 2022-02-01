@@ -4,7 +4,7 @@
 }
 
 .info {
-  background-color: yellow;
+  background-color: cadetblue;
 }
 
 .local {
@@ -25,4 +25,10 @@
 
 .masrazas {
   background-color: rgb(80, 158, 17);
+}
+
+.card{
+
+  margin-left: 25px;
+
 }
